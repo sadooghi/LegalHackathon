@@ -29,4 +29,18 @@ Paradvo will help both groups by connecting them together. By using Paradvo, sol
 * Stripe API
 * Passport for authentication
 ## Project Screenshots:
-![picture alt](https://raw.github.com/sadooghi/tweeter/master/images/tweeter_page_on_mobile.png "tweeter_page")
+![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/main_page.png)
+
+![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/client_request.png)
+
+![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/doc_uploaded_and_tags.png)
+
+![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/matched_lawyers.png)
+
+![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/confirmation_order.png)
+
+![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/make_payment.png)
+
+![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/sign-up.png)
+
+![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/dashboard.png)
