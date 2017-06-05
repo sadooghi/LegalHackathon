@@ -1,0 +1,59 @@
+extends ../layout
+
+block content
+  .page-header.col-sm-7.col-sm-offset-3
+    h3 Thank you for your selection!
+    p The law firm will review your proposal, and if accepted, will contact you by the end of the next business day to schedule an initial consultation, or, propose other law firms that may assist. 
+    p Within 3 days from the initial consultation, the Client may withdraw his/her selection and obtain a full refund within 5 days of the refund request.
+
+    form.form-horizontal(id='order-form', method='POST')
+      input(type='hidden', name='', value=_csrf)
+      .form-group
+        label.col-sm-3.control-label(for='email') Name
+        .col-sm-7
+          input.form-control(type='text', name='name', id='name', placeholder='Name and surname', autofocus, required)
+      .form-group
+        label.col-sm-3.control-label(for='email') Email
+        .col-sm-7
+          input.form-control(type='email', name='email', id='email', placeholder='Email', autofocus, required)
+      .form-group
+        label.col-sm-3.control-label(for='password') Password
+        .col-sm-7
+          input.form-control(type='password', name='password', id='password', placeholder='Password', required)
+      .form-group
+        label.col-sm-3.control-label(for='confirmPassword') Confirm Password
+        .col-sm-7
+          input.form-control(type='password', name='confirmPassword', id='confirmPassword', placeholder='Confirm Password', required)
+      .form-group
+        label.col-sm-3.control-label(for='address') Address
+        .col-sm-7
+          input.form-control(type='text', name='address', id='address', placeholder='Address', autofocus, required)
+      .form-group
+        label.col-sm-3.control-label(for='telephone') Phone
+        .col-sm-7
+          input.form-control(type='text', name='telephone', id='telephone', placeholder='Phone', autofocus, required)
+      .form-group
+        label.col-sm-3.control-label(for='service') Service requested
+        .col-sm-7
+          input.form-control(type='text', name='service', id='service', placeholder='Service requested', autofocus)
+      .form-group
+        label.col-sm-3.control-label(for='duedate') Due date
+        .col-sm-7
+          input.form-control(type='text', name='duedate', id='duedate', placeholder='Due date', autofocus)
+      .form-group
+        label.col-sm-3.control-label(for='admissionyear') Fee
+        .col-sm-7
+          input.form-control(type='number', name='fee', id='fee', placeholder='Fee', autofocus)
+      .form-group
+        input.col-sm-1(type='checkbox', name='cl', value="accept", id="accept")
+        label.col-sm-9(for=`${val}`) I agree that Paradvo will act as the escrow agent to hold law firm’s trust funds and release such funds only upon receipt of the issued invoice and my approval, which shall not be arbitrarily delayed or withheld, of the requested work, subject to our terms and conditions and in accordance with LSUC trust accounting rules.
+      .form-group.text-center
+        script(
+        src='https://checkout.stripe.com/checkout.js',
+        class='stripe-button',
+        data-key=publishableKey,
+        data-name='Paradvo',
+        data-description='Articles of Incorpotation ($675.00)',
+        data-amount='67500')
+        button.btn.btn-default(type='submit')
+          | Cancel
