@@ -1,5 +1,5 @@
 # Project Description
-Paradvo is an application which connects lawyers with clients.
+Paradvo connects lawyers (especially solo practitioners) with clients.
 
 Think about a time when you want to buy a condo and need to find a lawyer to check the condo's status certificate. You need to search for a lawyer online, find many lawyers and law firms, call them one by one, ask for a quote, write them down and at the end, choose one based on their quote. This is frustrating!
 On the other side, there are many junior solo practitioner lawyers or new grads who have a hard time bringing a new client on themselves.
