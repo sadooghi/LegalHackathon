@@ -44,3 +44,5 @@ Paradvo will help both groups by connecting them together. By using Paradvo, sol
 ![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/sign-up.png)
 
 ![picture alt](https://github.com/sadooghi/LegalHackathon/raw/master/uploads/dashboard.png)
+
+You can see the pitch deck here: https://drive.google.com/open?id=0B_0vqp806oSPX1pQUG55bmpmNVE
